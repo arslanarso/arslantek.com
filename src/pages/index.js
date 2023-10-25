@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-const linkPath = '/about';
+const linkPath = "/about";
 
 export default function Homepage() {
   return (
@@ -9,7 +9,7 @@ export default function Homepage() {
       {
         <article className="my-16 xl:flex justify-between items-center">
           <section className="max-w-3xl">
-            <h1 className="h2 md:h1 pb-4">Hello, I&apos;m Altan.</h1>
+            <h1 className="h2 md:h1 pb-4">Hello, I&apos;m Arslan.</h1>
             <p className="paragraph">
               I&apos;m a Frontend Developer. I enjoy learning about new
               technologies and tools, writing articles, and working on
@@ -22,7 +22,7 @@ export default function Homepage() {
             </p>
             <p className="paragraph pt-4">
               If you would like to know more about my career, you can check out
-              the{' '}
+              the{" "}
               <Link
                 className="text-primary decoration-2 hover:underline"
                 href={linkPath}

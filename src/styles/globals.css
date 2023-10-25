@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #__next {
+    @apply h-full text-light-text dark:text-dark-text;
+  }
+
+  html.dark {
+    @apply bg-dark-bg;
+  }
+  html.light {
+    @apply bg-light-bg;
+  }
+}
+
+@layer components {
+  .h1 {
+    @apply text-5xl font-bold text-light-text dark:text-dark-text;
+  }
+  .h2 {
+    @apply text-4xl font-bold text-light-text dark:text-dark-text;
+  }
+  .h3 {
+    @apply text-3xl font-semibold text-light-text dark:text-dark-text;
+  }
+  .h4 {
+    @apply text-2xl font-semibold text-light-text dark:text-dark-text;
+  }
+  .h5 {
+    @apply text-xl font-medium text-light-text dark:text-dark-text;
+  }
+  .paragraph {
+    @apply text-color text-base sm:text-xl text-light-text dark:text-dark-text;
+  }
+}
+
+@layer utilities {
+  .text-color {
+    @apply text-light-text dark:text-dark-text;
+  }
+
+  .bg-color {
+    @apply bg-light-bg dark:bg-dark-bg;
+  }
+
+  .date-color {
+    @apply text-light-date dark:text-dark-date;
+  }
+
+  .border-color {
+    @apply border-light-border dark:border-dark-border;
+  }
+
+  .code-color {
+    @apply bg-light-code dark:bg-dark-code;
+  }
+
+  .nav-active {
+    @apply !text-primary !important;
+  }
+
+  .nav-text {
+    @apply text-base font-semibold sm:text-lg hover:text-primary transition-all;
+  }
+
+  .project-text {
+    @apply text-primary border-primary;
+  }
+
+  .project-style {
+    @apply items-center border-2 rounded-full px-2;
+  }
+
+  /* For Webkit-based browsers (Chrome, Safari and Opera) */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

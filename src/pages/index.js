@@ -9,11 +9,13 @@ export default function Homepage() {
       {
         <article className="my-16 xl:flex justify-between items-center">
           <section className="max-w-3xl">
-            <h1 className="h2 md:h1 pb-4">Hello, I&apos;m Arslan.</h1>
+            <h1 className="h2 md:h1 pb-4">
+              Hello, I&apos;m Arslan,but you can call me Arso
+            </h1>
             <p className="paragraph">
-              I&apos;m a Frontend Developer. I enjoy learning about new
-              technologies and tools, writing articles, and working on
-              open-source projects.
+              I have been working in software development for the past 3 years,
+              with a particular focus on mobile application development for the
+              last year.
             </p>
             <p className="paragraph pt-4">
               My motivation for this website is to showcase my professional

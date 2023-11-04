@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
-import { Vercel, Github } from '../../assets/icons/index.js';
-import { projects } from '../../data/Projects.js';
+import { useRouter } from "next/router";
+import { Vercel, Github, AppStore } from "../../assets/icons/index.js";
+import { projects } from "../../data/Projects.js";
 
 export default function Projects() {
   const router = useRouter();
@@ -28,7 +28,7 @@ export default function Projects() {
                       target="_blank"
                       className="cursor-pointer"
                     >
-                      {link.id === 1 ? <Github /> : <Vercel />}
+                      {link.id === 1 ? <AppStore /> : <Vercel />}
                     </a>
                   ))}
                 </div>

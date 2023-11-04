@@ -29,7 +29,7 @@ export default function About() {
               music is my go-to soundtrack for life&apos;s adventures. So, if
               you ever need someone to discuss the latest software trends or
               argue about the greatest rock bands of all time, I&apos;m your
-              guy. Rock on, my friend!" 🤘🏐🎸
+              guy. Rock on, my friend! 🤘🏐🎸
             </p>
           </section>
         </article>

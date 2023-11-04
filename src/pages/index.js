@@ -34,7 +34,7 @@ export default function Homepage() {
           </section>
 
           <Image
-            src="/banner.png"
+            src="/reflection.png"
             width={540}
             height={360}
             className="rounded-lg lg:w-[540px] lg:h-[360px] xl:w-[432px] xl:h-[288px] 2xl:w-[540px] 2xl:h-[360px] pt-4 xl:pt-0"

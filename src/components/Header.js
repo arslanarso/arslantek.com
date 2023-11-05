@@ -142,7 +142,7 @@ export default function Header() {
             <Link
               className={`nav-text`}
               href={
-                "https://drive.google.com/file/d/1UU1WEptCWuu472B3FcdpNLjkm3V9Tejj/view?usp=sharing"
+                "https://drive.google.com/file/d/12_avPkBJVi_AxvZjMSxjmyodQGwMf3_T/view?usp=sharing"
               }
               rel="noopener noreferrer"
               target="_blank"

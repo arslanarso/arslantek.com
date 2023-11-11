@@ -106,7 +106,7 @@ export default function Header() {
               Homepage
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               className={`nav-text ${
                 router.pathname === "/ayca" ? isActiveLink("/ayca") : ""
@@ -118,7 +118,7 @@ export default function Header() {
             >
               Buraya Tıkla 🤍
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               className={`nav-text ${

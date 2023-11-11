@@ -6,7 +6,7 @@ const Footer = () => {
 
   const handleWhatsAppClick = () => {
     const whatsappNumber = "+905324990501"; // WhatsApp numarasını buraya ekleyin
-    const message = encodeURIComponent("Bende Seni Cok Seviyorum Sevgilim");
+    const message = encodeURIComponent("Bende Seni Çok Seviyorum Sevgilim");
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   };
 

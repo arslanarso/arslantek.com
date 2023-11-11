@@ -116,7 +116,7 @@ export default function Header() {
               }}
               href={"/ayca"}
             >
-              Buraya Bas 🤍
+              Buraya Tıkla 🤍
             </Link>
           </li>
           <li>

@@ -109,6 +109,19 @@ export default function Header() {
           <li>
             <Link
               className={`nav-text ${
+                router.pathname === "/ayca" ? isActiveLink("/ayca") : ""
+              }`}
+              style={{
+                color: router.pathname === "/ayca" ? "#ff00f9" : "#ff00f9",
+              }}
+              href={"/ayca"}
+            >
+              Buraya Bas 🤍
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={`nav-text ${
                 router.pathname === "/about" ? isActiveLink("/about") : ""
               }`}
               href={"/about"}
@@ -138,6 +151,7 @@ export default function Header() {
               Blog
             </Link>
           </li> */}
+
           <li>
             <Link
               className={`nav-text`}
